@@ -1,0 +1,84 @@
+.row{
+    /* font-size: 15px; */
+    font-weight: 600;
+    /* margin:0 5% 1%; */
+  }
+  
+  .row .col-3 img{
+    height: 60%;
+    width: 100%;
+  }
+  
+  
+  #navbarSupportedContent ul{
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .input-group{
+    margin:0% 20%;
+  }
+  
+  .input-group input{
+    border: 2px solid lightgreen;
+    border-right:none ;
+  }
+  
+  
+  .input-group button{
+    /* margin-left: 9%; */
+    /* border: none; */
+    height: 100%;
+    border: 2px solid lightgreen;
+    /* border-left: none; */
+    
+  }
+  
+  #nav-item1 {
+    margin-left: auto;
+  }
+  
+  .input-group #dropdownMenuLink{
+    height: 100%;
+    border: 2px solid lightgreen;
+    /* border-right: none;
+    border-left:none ; */
+    
+  }
+  
+  #new p{
+    margin-top: 6%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+  }
+  
+  .row img{
+    margin-left: 29%;
+    margin-top: 5%;
+  }
+  
+  
+  .row .tag{
+    margin: 1% 25%;
+    font-size: 18px;
+    /* color: black; */
+  }
+  .row a{
+    /* margin: 1% 25%; */
+    font-size: 17px;
+    color: black;
+  }
+  
+  .main-footer {
+    color: black;
+    background-color: lightgray;
+    padding-top: 3em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #social:hover{
+    cursor: pointer;
+  }

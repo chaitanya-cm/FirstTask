@@ -11,10 +11,10 @@ function Home() {
           {/* Endpoint to route to About component */}
           <Link to="/weather">Weather</Link>
         </li>
-        <li>
-          {/* Endpoint to route to Contact Us component */}
+        {/* <li>
+          Endpoint to route to Contact Us component
           <Link to="/iconfinder">Iconfinder</Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   )

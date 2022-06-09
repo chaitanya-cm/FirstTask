@@ -61,11 +61,11 @@ const dateBuilder = (d) => {
   }
 
 
-useEffect(() => {
+// useEffect(() => {
 
-  search();
+//   search();
 
-}, []);
+// }, []);
 
 // console.log(process.env.REACT_APP_API_BASE_URL);
 return (
@@ -173,4 +173,4 @@ return (
   );
 }
 
-export default Weather;
+export default Weather ;

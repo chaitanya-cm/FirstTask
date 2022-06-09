@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React,{useState, useEffect} from 'react';
-import Weather from './Weather';
+import Weather from './weather';
 // import Iconfinder from './Iconfinder';
 import Home from './Home';
 import {

@@ -71,6 +71,7 @@ useEffect(() => {
 return (
     <>
     <div className="search-box">
+      <h3>Enter City Name:</h3>
           <input 
             type="text"
             className="search-bar"
@@ -86,7 +87,7 @@ return (
               <div className='row justify-content-center'>
                 <div className='col-3'><h1>{Math.round(weather.main.temp)}°c</h1></div>
                 <div className='col-3'><h2>{weather.weather[0].main}</h2></div>
-                <div className='col-3'><h2>{weather.name}, {weather.sys.country}</h2></div>
+                <div className='col-3'><h2>{weather.name}</h2></div>
                 </div>
       
             <img class="card-img-top" src={icon1}/>

@@ -126,16 +126,16 @@ return (
       
             <div className="card justify-content-center border-dark mb-3" id='card1' style={{width:450}} >
               <div className='row justify-content-center'>
-                <div className='col-3'><h1>16°c</h1></div>
-                <div className='col-3'><h2>Sunny</h2></div>
-                <div className='col-3'><h2>London</h2></div>
+              <div className='col-3'><h1>{Math.round(weather.main.temp)}°c</h1></div>
+                <div className='col-3'><h2>{weather.weather[0].main}</h2></div>
+                <div className='col-3'><h2>{weather.name}</h2></div>
                 </div>
       
             <img class="card-img-top" src={icon4}/>
               <div class="card-body text-dark">
-                <h5 class="card-title text-center">SUN</h5>
-                  <h3 class="card-text">05 May 2022</h3>
-                  <h4 class="card-text text-center">07:40</h4>
+              <h5 class="card-title text-center">{dateBuilder1(new Date())}</h5>
+                  <h3 class="card-text">{dateBuilder(new Date())}</h3>
+                  <h4 class="card-text text-center">{timeBuilder()}</h4>
               </div>
               <div class='row'>
                 <div className='col-2'>
